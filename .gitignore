@@ -1,0 +1,20 @@
+﻿# 构建产物与临时文件
+*.obj
+*.exe
+*.pdb
+*.ilk
+dist/
+cosim_engine.log
+cosim_server.log
+# 工作区产物(二进制/表格/截图)
+*.zip
+*.xlsx
+*.png
+# 含敏感信息的脚本(邮箱授权码)不予收录
+send_mail.py
+_tmp*/
+_build*/
+_rn*/
+_x*/
+_shot*/
+_repo_stage*/
